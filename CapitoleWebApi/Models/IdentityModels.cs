@@ -29,5 +29,7 @@ namespace CapitoleWebApi.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CapitoleWebApi.fact> facts { get; set; }
     }
 }
